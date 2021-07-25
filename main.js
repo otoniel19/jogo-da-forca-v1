@@ -118,11 +118,11 @@ Boneco[0] = new Image()
                    }
        }
 
-chekcGameOver = setInterval(function() {
+checkGameOver = setInterval(function() {
   
   if(forca === 7) {
     alert("Game Over")
-    clearInterval(chekcGameOver)
+    clearInterval(checkGameOver)
     document.location.reload(1)
   }
   
